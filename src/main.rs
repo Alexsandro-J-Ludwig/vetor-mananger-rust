@@ -28,7 +28,7 @@ fn input_fields(){
 fn array_mananger(array:&mut Vec<String>){
     if array.len() == 0 {
         println!("Sua array está vazia");
-        return;
+        return; 
     }
 
     println!("Sua array: {:?}", array);
